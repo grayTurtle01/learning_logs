@@ -18,6 +18,10 @@ def foo(request):
 
 def index(request):
     return render(request, 'learning_logs/index.html')
+
+def x(request):
+    return render(request, 'learning_logs/x.html')
+
     
 @login_required    
 def topics(request):

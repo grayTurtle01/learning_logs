@@ -11,4 +11,6 @@ urlpatterns = [
     
     path('public_topics/', views.public_topics, name='public_topics'),
     path('public_topics/<topic_id>/', views.public_topic, name='public_topic'),
+
+    path('x/', views.x, name='x'),
 ]
